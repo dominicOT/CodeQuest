@@ -1,47 +1,25 @@
-#python quiz game
-#Author - DominiOT
-#09 - 11 - 2022
+# Python quiz game
+# Author - DominiOT
+# 09 - 11 - 2022
 
 import time
 import sys
 
-
-
-def mainPlay():
+def main_play():
     print("                   Welcome to CodeVer")
     print("Personalize your game play.")
     time.sleep(1)
-    p_gamePlay = input('''1. Tough.   (1)
+    p_game_play = input('''
+    1. Tough.   (1)
     2. Difficult.        (2)
     3. Normal.           (3)
     4. Simple.           (4)
     5. Random.           (5)
     ''')
 
-
-                                                #TOUGH GAMEPLAY
+    # Tough gameplay
     def tough_gplay():
-#question 1
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 2
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 3
+        # Question 1
         print("Question 1 ....")
         time.sleep(2)
         t_ansr1 = input("")
@@ -51,177 +29,179 @@ def mainPlay():
         else:
             print("Incorrect!!")
 
+        # Question 2
+        print("Question 2 ....")
+        time.sleep(2)
+        t_ansr2 = input("")
 
+        if t_ansr2 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
 
-                                                #DIFFICULT GAMEPLAY
+        # Question 3
+        print("Question 3 ....")
+        time.sleep(2)
+        t_ansr3 = input("")
+
+        if t_ansr3 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
+
+    # Difficult gameplay
     def diff_gplay():
-#question 1
+        # Question 1
         print("Question 1 ....")
         time.sleep(2)
-        t_ansr1 = input("")
+        d_ansr1 = input("")
 
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 2
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 3
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
+        if d_ansr1 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
 
+        # Question 2
+        print("Question 2 ....")
+        time.sleep(2)
+        d_ansr2 = input("")
 
+        if d_ansr2 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
 
-                                                    #NORMAL GAMEPLAY
+        # Question 3
+        print("Question 3 ....")
+        time.sleep(2)
+        d_ansr3 = input("")
+
+        if d_ansr3 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
+
+    # Normal gameplay
     def norm_gplay():
-#question 1
+        # Question 1
         print("Question 1 ....")
         time.sleep(2)
-        t_ansr1 = input("")
+        n_ansr1 = input("")
 
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 2
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 3
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
+        if n_ansr1 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
 
+        # Question 2
+        print("Question 2 ....")
+        time.sleep(2)
+        n_ansr2 = input("")
 
+        if n_ansr2 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
 
-                                                #SIMPLE GAMEPLAY
+        # Question 3
+        print("Question 3 ....")
+        time.sleep(2)
+        n_ansr3 = input("")
+
+        if n_ansr3 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
+
+    # Simple gameplay
     def simp_gplay():
-#question 1
+        # Question 1
         print("Question 1 ....")
         time.sleep(2)
-        t_ansr1 = input("")
+        s_ansr1 = input("")
 
-        if t_ansr1 == "":
+        if s_ansr1 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
-        
-#question 2
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
 
-        if t_ansr1 == "":
+        # Question 2
+        print("Question 2 ....")
+        time.sleep(2)
+        s_ansr2 = input("")
+
+        if s_ansr2 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
-        
-#question 3
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
 
-        if t_ansr1 == "":
+        # Question 3
+        print("Question 3 ....")
+        time.sleep(2)
+        s_ansr3 = input("")
+
+        if s_ansr3 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
-    
 
-                                                #RANDOM GAMEPLAY
+    # Random gameplay
     def rand_gplay():
-#question 1
+        # Question 1
         print("Question 1 ....")
         time.sleep(2)
-        t_ansr1 = input("")
+        r_ansr1 = input("")
 
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 2
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
-            print("Correct!!")
-        else:
-            print("Incorrect!!")
-        
-#question 3
-        print("Question 1 ....")
-        time.sleep(2)
-        t_ansr1 = input("")
-
-        if t_ansr1 == "":
+        if r_ansr1 == "":
             print("Correct!!")
         else:
             print("Incorrect!!")
 
+        # Question 2
+        print("Question 2 ....")
+        time.sleep(2)
+        r_ansr2 = input("")
 
+        if r_ansr2 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
 
-    if p_gamePlay == "1":
+        # Question 3
+        print("Question 3 ....")
+        time.sleep(2)
+        r_ansr3 = input("")
+
+        if r_ansr3 == "":
+            print("Correct!!")
+        else:
+            print("Incorrect!!")
+
+    if p_game_play == "1":
         tough_gplay()
-    elif p_gamePlay == "2":
+    elif p_game_play == "2":
         diff_gplay()
-    elif p_gamePlay == "3":
+    elif p_game_play == "3":
         norm_gplay()
-    elif p_gamePlay == "4":
+    elif p_game_play == "4":
         simp_gplay()
-    elif p_gamePlay == "5":
+    elif p_game_play == "5":
         rand_gplay()
     else:
         sys.exit()
 
 
-#def exitPlay():
-
-#def changeUsrNm():
-
-#def rateGame():
-
-#def usrData():
-
-
 print("             Welcome to CodeVer Quiz Game!")
-plyr_name = input("Enter Your Name:")
+player_name = input("Enter Your Name:")
 time.sleep(2)
-plyr_age = input("Enter Your Age: ")
-plyr_ageInt = int(plyr_age)
+player_age = input("Enter Your Age: ")
+player_age_int = int(player_age)
 time.sleep(2)
-plyr_gend = input("Enter Your Preferred Gender: ")
+player_gender = input("Enter Your Preferred Gender: ")
 time.sleep(2)
 
-if plyr_ageInt <= 17:
-    if plyr_gend == NULL:
+if player_age_int <= 17:
+    if player_gender == "":
         print("Requirement Not Met!!")
     sys.exit()
 
@@ -239,19 +219,15 @@ print('''
 
 desc = input("")
 
-if desc == 'P' or 'p':
+if desc.lower() == 'p':
     print("               .....processing....")
     time.sleep(4)
-    mainPlay()
-
-elif desc == 'X' or 'x':
+    main_play()
+elif desc.lower() == 'x':
     sys.exit()
-    
-elif desc == 'M' or 'm':
+elif desc.lower() == 'm':
     print("")
-
-elif desc == "R" or 'r':
+elif desc.lower() == "r":
     print("https://github.com/DominicOT")
-
 else:
     print("...")
